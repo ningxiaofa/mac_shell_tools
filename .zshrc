@@ -143,12 +143,10 @@ alias zipe='zip -re -P Nxf=1104'
 
 # 目录
 alias cdhtml='cd ~/Documents/env/docker/docker-lnmp-dev-env-sh/html';
-# 创建目录并进入
-alias mkdire='function _mkdire(){ ~/Documents/code/shell/shell_tools/dir/./mkdire.sh "$@"; }; _mkdire'
 
 # git
 # git add & commit
 alias gitac='function _gitac(){ ~/Documents/code/shell/shell_tools/git/./gitac.sh "$@"; }; _gitac'
 # git add & commit & pull & push
-alias gita='function _gita(){ ~/Documents/code/shell/shell_tools/git/./gita.sh "$@"; }; _gita'
+alias gitall='function _gitall(){ ~/Documents/code/shell/shell_tools/git/./gitall.sh "$@"; }; _gitall'
 
