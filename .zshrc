@@ -124,8 +124,8 @@ alias ssh-bingo="ssh root@ec2-3-134-81-136.us-east-2.compute.amazonaws.com"
 # alias ssh-bingo="ssh -i /Users/mac/Downloads/id_rsa_wudi root@ec2-3-134-81-136.us-east-2.compute.amazonaws.com"
 
 # ssh tunnel [redis]
-alias ssh-testing-center="ssh -L 8888:test-ding.j9afbi.ng.0001.usw1.cache.amazonaws.com:6379 root@54.183.13.75"
-alias ssh-testing-local="ssh -L 9999:localhost:6379 root@54.183.13.75"
+alias ssh-redis-testing-center="ssh -L 8888:test-ding.j9afbi.ng.0001.usw1.cache.amazonaws.com:6379 root@54.183.13.75"
+alias ssh-redis-testing-local="ssh -L 9999:localhost:6379 root@54.183.13.75"
 
 # php artisan
 alias pa="php74 artisan"
@@ -149,6 +149,11 @@ alias zipe='zip -re -P Nxf=1104'
 
 # 目录
 alias cdhtml='cd ~/Documents/env/docker/docker-lnmp-dev-env-sh/html'
+# 兼容处理命令输入
+alias cd..='cd ..'
+alias cd-='cd -'
+alias codezsh='code ~/.zshrc'
+alias catdirs='cat ~/Documents/code/php/assist_test/scripts/shell_tools/resoure/text/rrequently_used_directories.txt'
 
 # git
 # git add & commit
@@ -156,3 +161,11 @@ alias gitac='function _gitac(){ ~/Documents/code/shell/shell_tools/git/./gitac.s
 # git add & commit & pull & push
 alias gitall='function _gitall(){ ~/Documents/code/shell/shell_tools/git/./gitall.sh "$@"; }; _gitall'
 alias gitc='git checkout -'
+
+# docker
+# 如果不用bash,则需要给ip.sh执行权限
+# alias docker_ip="function _docker_ip(){ bash ~/Documents/code/shell/shell_tools/docker/ip.sh; }; _docker_ip" 
+alias docker_ip="bash ~/Documents/code/shell/shell_tools/docker/ip.sh;"
+
+# 环境别名立即生效[就是手动重新加载]
+alias source1='source ~/.zshrc'
