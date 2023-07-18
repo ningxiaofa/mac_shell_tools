@@ -41,6 +41,7 @@
 - ...
 
 ## 4. 目录结构
+推荐
 ```
 project/
 ├── src/
@@ -52,6 +53,24 @@ project/
 ├── README.md
 ├── package.json
 └── ...
+```
+实际
+```
+➜  shell_tools git:(main) ✗ tree -L 3
+.
+├── README-template.md
+├── README.md
+├── dir
+│   └── mkdire.sh
+├── docker
+│   └── ip.sh
+├── git
+│   ├── gitac.sh
+│   └── gitall.sh
+└── myhistory.sh
+
+4 directories, 7 files
+➜  shell_tools git:(main) ✗ 
 ```
 ## 5. 贡献指南
 如果想贡献脚本工具等,可发起PR.
