@@ -1,0 +1,36 @@
+➜  gp git:(main) ✗ ls
+20230224-gp-ABs 20230228-gp-6   20230313-gp-7   20230425-gp-9   20230505-gp-10  20230524-gp-11  20230611-gp-12  20230626-gp-13  20230712-gp-14  排行榜AB版
+➜  gp git:(main) ✗ /Users/mac/Documents/code/shell/shell_tools/dir/batch_replace_name_all_files.sh -gp- -  
+Renamed './20230228-gp-6' to './20230228-6'
+Renamed './20230505-gp-10' to './20230505-10'
+Renamed './20230712-gp-14' to './20230712-14'
+Renamed './20230611-gp-12' to './20230611-12'
+Renamed './20230425-gp-9' to './20230425-9'
+Renamed './20230524-gp-11' to './20230524-11'
+Renamed './20230626-gp-13' to './20230626-13'
+Renamed './20230224-gp-ABs' to './20230224-ABs'
+Renamed './20230313-
+
+
+➜  gp git:(main) ✗ ls
+201230309-1     201230417-gp-6  201230428-gp-7  201230509-gp-8  201230526-gp-9  201230611-gp-11 201230629-gp-12 201230719-13
+➜  gp git:(main) ✗ /Users/mac/Documents/code/shell/shell_tools/dir/batch_replace_name_dirs_files.sh 20123 2023
+Renamed './201230526-gp-9' to './20230526-gp-9'
+Renamed './201230719-13' to './20230719-13'
+Renamed './201230428-gp-7' to './20230428-gp-7'
+Renamed './201230611-gp-11' to './20230611-gp-11'
+Renamed './201230629-gp-12' to './20230629-gp-12'
+Renamed './201230309-1' to './20230309-1'
+Renamed './201230509-gp-8' to './20230509-gp-8'
+Renamed './201230417-gp-6' to './20230417-gp-6'
+➜  gp git:(main) ✗ /Users/mac/Documents/code/shell/shell_tools/dir/batch_replace_name_dirs_files.sh 20123 -gp- -
+➜  gp git:(main) ✗ ls
+20230309-1     20230417-gp-6  20230428-gp-7  20230509-gp-8  20230526-gp-9  20230611-gp-11 20230629-gp-12 20230719-13
+➜  gp git:(main) ✗ /Users/mac/Documents/code/shell/shell_tools/dir/batch_replace_name_dirs_files.sh -gp- -      
+Renamed './20230629-gp-12' to './20230629-12'
+Renamed './20230526-gp-9' to './20230526-9'
+Renamed './20230428-gp-7' to './20230428-7'
+Renamed './20230509-gp-8' to './20230509-8'
+Renamed './20230611-gp-11' to './20230611-11'
+Renamed './20230417-gp-6' to './20230417-6'
+➜  gp git:(main) ✗ 
